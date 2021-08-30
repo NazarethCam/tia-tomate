@@ -1,0 +1,23 @@
+.section {
+    @include container-gray;
+    &__img {
+        width: 80%;
+        height: 70vh;
+        padding: 3rem 0;
+        object-fit: cover;
+        margin-bottom: 0;
+        @include large-breakpoint {
+        width: 100%;
+        height: 30vh;
+        }
+    }
+    &__h3 {
+        font-size: $large;
+        font-weight: $black;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+    &__parrafo {
+        color: $white !important;
+    }    
+}

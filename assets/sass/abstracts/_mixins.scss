@@ -1,0 +1,27 @@
+@mixin container-orange {
+    background: $jelly-bean;
+    color: $white;
+    text-align: center;
+    padding: 4rem 0; 
+}
+
+@mixin container-gray {
+    background: $taupe-gray;
+    color: $white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+@mixin text-h3 {
+    font-weight: $black;
+    font-size: $large;
+    color: $granite-gray;
+    text-align: center;
+}
+
+@mixin large-breakpoint {
+    @media (max-width: $breakpoint-lg){
+        @content;
+    } 
+} 
+

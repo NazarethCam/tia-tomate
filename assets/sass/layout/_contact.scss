@@ -1,0 +1,13 @@
+.contact {
+    background: $jelly-bean;
+    color: $white;
+    text-align: center;
+    padding: 2rem 0;
+
+    &__h4 {
+    font-size: $large;
+    font-weight: $black;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    }
+}

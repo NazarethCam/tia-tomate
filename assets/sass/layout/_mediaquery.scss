@@ -1,0 +1,40 @@
+// De 0 a 576px
+@media (min-width:1px) and (min-width:$breakpoint-s) {
+.contact__btn--small {
+    font-size: 12px; 
+    padding: 0.5rem 1rem;
+    }
+}
+// De 576px a 768px
+@media (min-width:$breakpoint-s) and (min-width:$breakpoint-m) {
+    .contact__btn--medium {
+        font-size: $medium;
+        padding: 0.8rem 2rem; 
+        }
+    }
+// de 768px a 1200px
+    @media (min-width:$breakpoint-m) and (min-width:$breakpoint-x-lg) {
+        .contact__btn--large {
+            font-size: 25px; 
+            padding: 0.8rem 5rem;
+            }
+        }
+// de 1200px a 1400px
+    @media (min-width:$breakpoint-lg) and (min-width:$breakpoint-xx-lg) {
+        .contact__btn--big {
+            font-size: $large; 
+            padding: 1rem 5rem;
+                }
+            }
+// Cambio Responsive            
+@media (max-width: $breakpoint-lg) {
+    .header__title-h2, .header__title-h1 {
+        font-size: $large !important;
+    }
+    .section__h3, .location__h3, .about__h3 {
+        font-size: 34px !important;
+    } 
+    .about__h4, .contact__h4 {
+        font-size: 24px !important;
+    }
+}
